@@ -1,0 +1,837 @@
+{
+    "1": {
+        "SDG": 1,
+        "Indicators": [
+            {
+                "Indicator": "Poverty headcount ratio at $2.15/day (2017 PPP, %)",
+                "Description": "Estimated percentage of the population that is living under the poverty threshold of US$2.15 a day. Estimated using historical estimates of the income distribution, projections of population changes by age and educational attainment, and GDP projections.",
+                "Source": "World Data Lab",
+                "Dwldlink": "http://worldpoverty.io/"
+            },
+            {
+                "Indicator": "Poverty headcount ratio at $3.65/day (2017 PPP, %)",
+                "Description": "Estimated percentage of the population that is living under the poverty threshold of US$3.65 a day. Estimated using historical estimates of the income distribution, projections of population changes by age and educational attainment, and GDP projections.",
+                "Source": "World Data Lab",
+                "Dwldlink": "http://worldpoverty.io/"
+            },
+            {
+                "Indicator": "Poverty rate after taxes and transfers (%)",
+                "Description": "The share of the population whose incomes fall below half the median disposable income for the entire population. The income threshold for relative poverty changes over time with changes in median disposable income.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?tm=income%20distribution&pg=0&snb=17&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_WISE_IDD%40DF_IDD&df[ag]=OECD.WISE.INE&df[vs]=1.0&pd=2010%2C&dq=.A.INC_DISP_GINI..._T.METH2012.D_CUR.&ly[rw]=REF_AREA%2CUNIT_MEASURE&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false2CUNIT_MEASURE&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false2CUNIT_MEASURE&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false"
+            }
+        ]
+    },
+    "2": {
+        "SDG": 2,
+        "Indicators": [
+            {
+                "Indicator": "Prevalence of undernourishment (%)",
+                "Description": "The percentage of the population whose food intake is insufficient to meet dietary energy requirements for a minimum of one year. Dietary energy requirements are defined as the amount of dietary energy required by an individual to maintain body functions, health and normal activity. Due to uncertainty in the estimates, the lowest value FAO attributes to countries is 2.5%. We therefore assume 2.5% in all high-income countries with missing data.",
+                "Source": "FAO ",
+                "Dwldlink": "https://www.fao.org/faostat/en/#data/SDGB"
+            },
+            {
+                "Indicator": "Prevalence of stunting in children under 5 years of age (%)",
+                "Description": "The percentage of children up to the age of 5 years that are stunted, measured as the percentage that fall below minus two standard deviations from the median height for their age, according to the WHO Child Growth Standards. UNICEF et al. (2016) report an average prevalence of stunting in high-income countries of 2.58%. We assumed this value for high-income countries with missing data.",
+                "Source": "UNICEF et al. ",
+                "Dwldlink": "http://data.worldbank.org/indicator/SH.STA.STNT.ZS"
+            },
+            {
+                "Indicator": "Prevalence of wasting in children under 5 years of age (%)",
+                "Description": "The percentage of children up to the age of 5 years whose weight falls below minus two standard deviations from the median weight for their age, according to the WHO Child Growth Standards. UNICEF et al. (2016) report an average prevalence of wasting in high-income countries of 0.75%. We assumed this value for high-income countries with missing data.",
+                "Source": "UNICEF et al. ",
+                "Dwldlink": "http://data.worldbank.org/indicator/SH.STA.WAST.ZS"
+            },
+            {
+                "Indicator": "Prevalence of obesity, BMI \u2265 30 (% of adult population)",
+                "Description": "The percentage of the adult population that has a body mass index (BMI) of 30kg/m\u00b2 or higher, based on measured height and weight.",
+                "Source": "WHO ",
+                "Dwldlink": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-obesity-among-adults-bmi--30-(age-standardized-estimate)-(-)"
+            },
+            {
+                "Indicator": "Human Trophic Level (best 2-3 worst)",
+                "Description": "Trophic levels are a measure of the energy intensity of diet composition and reflect the relative amounts of plants as opposed to animals eaten in each country. A higher trophic level represents a greater level of consumption of energy-intensive animals.",
+                "Source": "Bonhommeau et al. (2013) \ndata updated to 2017",
+                "Dwldlink": "https://doi.org/10.1073/pnas.1305827110"
+            },
+            {
+                "Indicator": "Cereal yield (tonnes per hectare of harvested land)",
+                "Description": "Cereal yield, measured as tonnes per hectare of harvested land. Production data on cereals relate to crops harvested for dry grain only and excludes crops harvested for hay or green for food, feed, or silage and those used for grazing.",
+                "Source": "FAO ",
+                "Dwldlink": "http://data.worldbank.org/indicator/AG.YLD.CREL.KG"
+            },
+            {
+                "Indicator": "Sustainable Nitrogen Management Index (best 0-1.41 worst)",
+                "Description": "The Sustainable Nitrogen Management Index (SNMI) is a one-dimensional ranking score that combines two efficiency measures in crop production: Nitrogen use efficiency (NUE) and land use efficiency (crop yield).",
+                "Source": "Zhang and Davidson (2019)",
+                "Dwldlink": "https://doi.org/10.1002/essoar.10501111.1"
+            },
+            {
+                "Indicator": "Yield gap closure (% of potential yield)",
+                "Description": "A country's yield expressed as a percentage of its potential yield in the three annual crops using the most land area, weighted for the relative importance of each crop in terms of surface area.",
+                "Source": "Global Yield Gap Atlas",
+                "Dwldlink": "http://www.yieldgap.org/web/guest/glossary"
+            },
+            {
+                "Indicator": "Exports of hazardous pesticides (tonnes per million population)",
+                "Description": "Exports of pesticides deemed hazardous to human health, standardized by population. Due to volatility, the calculation uses the average value over the last 5 years.",
+                "Source": "FAO ",
+                "Dwldlink": "http://www.fao.org/faostat/en/#data/RT/metadata"
+            }
+        ]
+    },
+    "3": {
+        "SDG": 3,
+        "Indicators": [
+            {
+                "Indicator": "Maternal mortality rate (per 100,000 live births) ",
+                "Description": "The estimated number of women, between the age of 15 and 49, who die from pregnancy-related causes while pregnant or within 42 days of termination of pregnancy, per 100,000 live births.",
+                "Source": "WHO et al. ",
+                "Dwldlink": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)"
+            },
+            {
+                "Indicator": "Neonatal mortality rate (per 1,000 live births)",
+                "Description": "The number of newborn infants (neonates) who die before reaching 28 days of age, per 1,000 live births.",
+                "Source": "UNICEF et al. ",
+                "Dwldlink": "https://childmortality.org/"
+            },
+            {
+                "Indicator": "Mortality rate, under-5 (per 1,000 live births)",
+                "Description": "The probability that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year, per 1,000 live births.",
+                "Source": "UNICEF et al. ",
+                "Dwldlink": "https://childmortality.org/"
+            },
+            {
+                "Indicator": "Incidence of tuberculosis (per 100,000 population)",
+                "Description": "The estimated rate of new and relapse cases of tuberculosis each year, expressed per 100,000 people. All forms of tuberculosis are included, including cases of people living with HIV.",
+                "Source": "WHO ",
+                "Dwldlink": "http://data.worldbank.org/indicator/SH.TBS.INCD"
+            },
+            {
+                "Indicator": "New HIV infections (per 1,000 uninfected population, all ages)",
+                "Description": "Number of people newly infected with HIV per 1,000 uninfected population.",
+                "Source": "UNAIDS ",
+                "Dwldlink": "https://aidsinfo.unaids.org/?chp=false"
+            },
+            {
+                "Indicator": "Age-standardized death rate due to cardiovascular disease, cancer, diabetes, or chronic respiratory disease in adults aged 30\u201370 years (%)",
+                "Description": "The probability of dying between the ages of 30 and 70 years from cardiovascular diseases, cancer, diabetes or chronic respiratory diseases, defined as the percent of 30-year-old-people who would die before their 70th birthday from these diseases, assuming current mortality rates at every age and that individuals would not die from any other cause of death (e.g. injuries or HIV/AIDS).",
+                "Source": "WHO ",
+                "Dwldlink": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/probability-(-)-of-dying-between-age-30-and-exact-age-70-from-any-of-cardiovascular-disease-cancer-diabetes-or-chronic-respiratory-disease"
+            },
+            {
+                "Indicator": "Age-standardized death rate attributable to household air pollution and ambient air pollution (per 100,000 population)",
+                "Description": "Mortality rate that is attributable to the joint effects of fuels used for cooking indoors and ambient outdoor air pollution.",
+                "Source": "WHO ",
+                "Dwldlink": "https://unstats.un.org/sdgs/indicators/database/?indicator=3.9.1"
+            },
+            {
+                "Indicator": "Traffic deaths (per 100,000 population)",
+                "Description": "Estimated number of fatal road traffic injuries per 100,000 people.",
+                "Source": "WHO ",
+                "Dwldlink": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-road-traffic-death-rate-(per-100-000-population)"
+            },
+            {
+                "Indicator": "Life expectancy at birth (years)",
+                "Description": "The average number of years that a newborn could expect to live, if he or she were to pass through life exposed to the sex- and age-specific death rates prevailing at the time of his or her birth, for a specific year, in a given country, territory, or geographic area.",
+                "Source": "UNDESA ",
+                "Dwldlink": "https://population.un.org/wpp/Download/Standard/MostUsed/"
+            },
+            {
+                "Indicator": "Adolescent fertility rate (births per 1,000 females aged 15 to 19)",
+                "Description": "The number of births per 1,000 females between the age of 15 and 19.",
+                "Source": "WHO",
+                "Dwldlink": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/adolescent-birth-rate-(per-1000-women-aged-15-19-years)"
+            },
+            {
+                "Indicator": "Births attended by skilled health personnel (%)",
+                "Description": "The percentage of births attended by personnel trained to give the necessary supervision, care, and advice to women during pregnancy, labor, and the postpartum period, to conduct deliveries on their own, and to care for newborns.",
+                "Source": "UNICEF ",
+                "Dwldlink": "https://unstats.un.org/sdgs/dataportal/database"
+            },
+            {
+                "Indicator": "Surviving infants who received 2 WHO-recommended vaccines (%)",
+                "Description": "Estimated national routine immunization coverage of infants, expressed as the percentage of surviving infants, children under the age of 12 months, who received two WHO-recommended vaccines (3rd dose of DTP and 1st dose of measles). Calculated as the minimum value between the percentage of infants who have received the 3rd dose of DTP and the percentage who have received the 1st dose of measles.",
+                "Source": "WHO and UNICEF ",
+                "Dwldlink": "https://data.unicef.org/topic/child-health/immunization/#data"
+            },
+            {
+                "Indicator": "Universal health coverage (UHC) index of service coverage (worst 0-100 best)",
+                "Description": "Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population). The indicator is an index reported on a unitless scale of 0 to 100, which is computed as the geometric mean of 14 tracer indicators of health service coverage.",
+                "Source": "WHO ",
+                "Dwldlink": "https://unstats.un.org/sdgs/indicators/database/?indicator=3.8.1"
+            },
+            {
+                "Indicator": "Subjective well-being (average ladder score, worst 0-10 best)",
+                "Description": "Subjective self-evaluation of life, where respondents are asked to evaluate where they feel they stand on a ladder where 0 represents the worst possible life and 10 the best possible life.",
+                "Source": "Gallup ",
+                "Dwldlink": "https://worldhappiness.report/ed/2024/#appendices-and-data"
+            },
+            {
+                "Indicator": "Gap in life expectancy at birth among regions (years)",
+                "Description": "Difference between maximum and minimum regional life expectancy at birth among regions.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?fs[0]=Topic%2C1%7CRegions%2C%20cities%20and%20local%20areas%23GEO%23%7CRegions%23GEO_REG%23&fs[1]=Topic%2C1%7CHealth%23HEA%23%7CSubnational%20health%20indicators%23HEA_GEO%23&fs[2]=Measure%2C0%7CLife%20expectancy%23LFEXP%23&pg=0&fc=Measure&snb=1&vw=ov&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_REG_HEALTH%40DF_STATUS&df[ag]=OECD.CFE.EDS&df[vs]=1.0&pd=%2C&dq=A....LFEXP...&to[TIME_PERIOD]=false&lo=5&lom=LASTNPERIODS"
+            },
+            {
+                "Indicator": "Gap in self-reported health status by income (percentage points)",
+                "Description": "Gap in percentage of people who perceive their health status as good or very good between the poorest 20% and the richest 20% of the population.\n",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?fs[0]=Topic%2C1%7CHealth%23HEA%23%7CHealth%20status%23HEA_STA%23&pg=0&fc=Topic&bp=true&snb=16&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_HEALTH_STAT%40DF_PHS_SES&df[ag]=OECD.ELS.HD&df[vs]=1.0"
+            },
+            {
+                "Indicator": "Daily smokers (% of population aged 15 and over)",
+                "Description": "The percentage of the population aged 15 years and older who are reported to smoke daily.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?tm=smokers&pg=0&snb=2&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_HEALTH_LVNG%40DF_HEALTH_LVNG_TC&df[ag]=OECD.ELS.HD&df[vs]=1.0&pd=2018%2C2022&dq=.A.SP_DS.Y_GE15._T..&ly[rw]=REF_AREA&ly[cl]=TIME_PERIOD&ly[rs]=AGE&to[TIME_PERIOD]=false"
+            }
+        ]
+    },
+    "4": {
+        "SDG": 4,
+        "Indicators": [
+            {
+                "Indicator": "Participation rate in pre-primary organized learning (% of children aged 4 to 6)",
+                "Description": "Participation rate in organized learning one year before the official primary entry age measured by the adjusted net enrollment rate in organized learning. ",
+                "Source": "UNESCO ",
+                "Dwldlink": "http://sdg4-data.uis.unesco.org/"
+            },
+            {
+                "Indicator": "Net primary enrollment rate (%)",
+                "Description": "The percentage of children of the official school age population who are enrolled in primary education.",
+                "Source": "UNESCO ",
+                "Dwldlink": "http://data.uis.unesco.org/"
+            },
+            {
+                "Indicator": "Lower secondary completion rate (%)",
+                "Description": "Lower secondary education completion rate measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary education, regardless of age, divided by the population at the entrance age for the last grade of lower secondary education.",
+                "Source": "UNESCO ",
+                "Dwldlink": "https://data.worldbank.org/indicator/SE.SEC.CMPT.LO.ZS"
+            },
+            {
+                "Indicator": "Literacy rate (% of population aged 15 to 24)",
+                "Description": "The percentage of youth, aged 15 to 24, who can both read and write a short simple statement on everyday life with understanding.",
+                "Source": "UNESCO ",
+                "Dwldlink": "http://sdg4-data.uis.unesco.org/"
+            },
+            {
+                "Indicator": "Tertiary educational attainment (% of population aged 25 to 34)",
+                "Description": "The percentage of the population, aged 25 to 34, who have completed tertiary education.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?tm=Population%20with%20tertiary%20education&pg=0&snb=6&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_REG_EDU%40DF_ATTAIN&df[ag]=OECD.CFE.EDS&df[vs]=1.0&pd=2018%2C2022&dq=A.CTRY.ROU%2BCHL%2BCOL%2BCRI%2BCZE%2BDNK%2BEST%2BFIN%2BFRA%2BDEU%2BGRC%2BHUN%2BISL%2BIRL%2BISR%2BITA%2BKOR%2BLVA%2BLTU%2BLUX%2BMEX%2BNLD%2BNZL%2BNOR%2BPOL%2BPRT%2BSVK%2BSVN%2BESP%2BSWE%2BCHE%2BTUR%2BGBR%2BUSA%2BEU27_2020%2BBEL%2BCAN%2BAUS%2BAU1%2BAU2%2BAU3%2BAU4%2BAU5%2BAU6%2BAU7%2BAU8%2BAUT%2BAT11%2BAT12%2BAT13%2BAT21%2BAT22%2BAT31%2BAT32%2BAT33%2BAT34...Y25T34._T.ISCED11_5T8.MEAN.&ly[rw]=REF_AREA&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false"
+            },
+            {
+                "Indicator": "PISA score (worst 0-600 best)",
+                "Description": "National scores in the Programme for International Student Assessment (PISA), an internationally standardized assessment that is administered to 15-year-olds in schools. It assesses how far students near the end of compulsory education have acquired some of the knowledge and skills that are essential for full participation in society. Country PISA scores for reading, mathematics, and science were averaged to obtain an overall PISA score.  \n",
+                "Source": "OECD ",
+                "Dwldlink": "https://www.oecd.org/pisa/data/"
+            },
+            {
+                "Indicator": "Variation in mathematics performance explained by socio-economic status (%)",
+                "Description": "Percentage of variation in science performance explained by students' socio-economic status.",
+                "Source": "OECD ",
+                "Dwldlink": "https://www.oecd.org/pisa/data/"
+            },
+            {
+                "Indicator": "Underachievers in mathematics (% of 15-year-olds) ",
+                "Description": "Percentage of students with a performance in science below level 2 (less than 409.54 score points).",
+                "Source": "OECD ",
+                "Dwldlink": "https://www.oecd.org/pisa/data/"
+            }
+        ]
+    },
+    "5": {
+        "SDG": 5,
+        "Indicators": [
+            {
+                "Indicator": "Demand for family planning satisfied by modern methods (% of females aged 15 to 49)",
+                "Description": "The percentage of women of reproductive age whose demand for family planning has been met using modern methods of contraception.",
+                "Source": "UNDESA ",
+                "Dwldlink": "https://unstats.un.org/sdgs/indicators/database/"
+            },
+            {
+                "Indicator": "Ratio of female-to-male mean years of education received (%)",
+                "Description": "The mean years of education received by women aged 25 and older divided by the mean years of education received by men aged 25 and older.",
+                "Source": "UNDP",
+                "Dwldlink": "https://hdr.undp.org/data-center/documentation-and-downloads"
+            },
+            {
+                "Indicator": "Ratio of female-to-male labor force participation rate (%)",
+                "Description": "Modeled estimate of the proportion of the female population aged 15 years and older that is economically active, divided by the same proportion for men.\n",
+                "Source": "ILO ",
+                "Dwldlink": "https://data.worldbank.org/indicator/SL.TLF.CACT.FM.ZS"
+            },
+            {
+                "Indicator": "Seats held by women in national parliament (%)",
+                "Description": "The number of seats held by women in single or lower chambers of national parliaments, expressed as a percentage of all occupied seats. Seats refer to the number of parliamentary mandates, or the number of members of parliament.",
+                "Source": "IPU ",
+                "Dwldlink": "https://data.ipu.org/women-ranking?month=1&year=2024"
+            },
+            {
+                "Indicator": "Gender wage gap (% of male median wage)",
+                "Description": "The difference between male and female median wages of full-time employees and those self-employed, divided by the male median wage.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?tm=gender%20wage%20gap&pg=0&hc%5bMeasure%5d=Gender%20wage%20gap&snb=3&vw=tb&df%5bds%5d=dsDisseminateFinalDMZ&df%5bid%5d=DSD_EARNINGS%40GENDER_WAGE_GAP&df%5bag%5d=OECD.ELS.SAE&df%5bvs%5d=1.0&pd=2015%2C2022&dq=.GWP....MEDIAN._T&ly%5brw%5d=REF_AREA&ly%5bcl%5d=TIME_PERIOD&to%5bTIME_PERIOD%5d=false"
+            }
+        ]
+    },
+    "6": {
+        "SDG": 6,
+        "Indicators": [
+            {
+                "Indicator": "Population using at least basic drinking water services (%)",
+                "Description": "The percentage of the population using at least a basic drinking water service, such as drinking water from an improved source, provided that the collection time is not more than 30 minutes for a round trip, including queuing. ",
+                "Source": "JMP ",
+                "Dwldlink": "https://data.worldbank.org/indicator/SH.H2O.BASW.ZS"
+            },
+            {
+                "Indicator": "Population using at least basic sanitation services (%)",
+                "Description": "The percentage of the population using at least a basic sanitation service, such as an improved sanitation facility that is not shared with other households. ",
+                "Source": "JMP ",
+                "Dwldlink": "https://data.worldbank.org/indicator/SH.STA.BASS.ZS"
+            },
+            {
+                "Indicator": "Freshwater withdrawal (% of available freshwater resources)",
+                "Description": "The level of water stress: freshwater withdrawal as a proportion of available freshwater resources is the ratio between total freshwater withdrawn by all major sectors and total renewable freshwater resources, after taking into account environmental water requirements. Main sectors, as defined by ISIC standards, include agriculture, forestry and fishing, manufacturing, electricity industry, and services. This indicator is also known as water withdrawal intensity.",
+                "Source": "FAO ",
+                "Dwldlink": "https://unstats.un.org/sdgs/indicators/database/?indicator=6.4.2"
+            },
+            {
+                "Indicator": "Anthropogenic wastewater that receives treatment (%)",
+                "Description": "The proportion of wastewater that undergoes at least primary treatment in each country, multiplied by the proportion of the population connected to a wastewater collection system.",
+                "Source": "EPI ",
+                "Dwldlink": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/WSH_DOMESTIC_WASTE_SAFELY_TREATED"
+            },
+            {
+                "Indicator": "Scarce water consumption embodied in imports (m\u00b3 H\u2082Oeq/capita)",
+                "Description": "Water scarcity is measured as water consumption weighted by scarcity indices. In order to incorporate water scarcity into the virtual water flow calculus, water use entries are weighted so that they reflect the scarcity of the water being used.  The weight used is a measure of water withdrawals as a percentage of the existing local renewable freshwater resources. ",
+                "Source": "UNEP",
+                "Dwldlink": "http://scp-hat.lifecycleinitiative.org/module-2-scp-hotspots/"
+            },
+            {
+                "Indicator": "Population using safely managed water services (%)",
+                "Description": "The percentage of the population using a safely managed drinking water service. A safely managed drinking water service is one where people use an \"improved\" source meeting three criteria: it is accessible on premises, water is available when needed, and the water supplied is free from contamination. Improved sources are those that have the potential to deliver safe water by nature of their design and construction.",
+                "Source": "JMP ",
+                "Dwldlink": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS"
+            },
+            {
+                "Indicator": "Population using safely managed sanitation services (%)",
+                "Description": "The percentage of the population using safely managed sanitation services. Safely managed sanitation services are \"improved\" sanitation facilities that are not shared with other households, and where the excreta produced should either be treated and disposed of in situ, stored temporarily and then emptied, transported and treated off-site, or transported through a sewer with wastewater and then treated off-site. Improved sanitation facilities are those designed to hygienically separate excreta from human contact.",
+                "Source": "JMP ",
+                "Dwldlink": "https://data.worldbank.org/indicator/SH.STA.SMSS.ZS"
+            }
+        ]
+    },
+    "7": {
+        "SDG": 7,
+        "Indicators": [
+            {
+                "Indicator": "Population with access to electricity (%)",
+                "Description": "The percentage of the population who has access to electricity.",
+                "Source": "IEA, IRENA, UNSD, WB, WHO",
+                "Dwldlink": "http://data.worldbank.org/indicator/EG.ELC.ACCS.ZS"
+            },
+            {
+                "Indicator": "Population with access to clean fuels and technology for cooking (%)",
+                "Description": "The percentage of the population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.",
+                "Source": "WHO",
+                "Dwldlink": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/gho-phe-primary-reliance-on-clean-fuels-and-technologies-proportion"
+            },
+            {
+                "Indicator": "CO\u2082 emissions from fuel combustion per total electricity output (MtCO\u2082/TWh)",
+                "Description": "A measure of the carbon intensity of energy production, calculated by dividing CO\u2082 emissions from the combustion of fuel by electricity output. The data are reported in Megatonnes per billion kilowatt hours.",
+                "Source": "Global Carbon Project & IEA ",
+                "Dwldlink": "https://www.icos-cp.eu/science-and-impact/global-carbon-budget\nhttps://www.eia.gov/international/data/world/electricity/electricity-generation"
+            },
+            {
+                "Indicator": "Renewable energy share in total final energy consumption (%)",
+                "Description": "The share of renewable energy in the total final energy consumption. Renewable energy includes hydro, solid biofuels, liquid biofuels, biogases, modern biomass, wind, solar, geothermal, tide/wave/oceans and renewable municipal waste. It does not include traditional biomass \u2014 local solid biomass resources (e.g. wood, charcoal, dung, agricultural residues) used in low-income households that do not have access to modern cooking fuels or technologies.",
+                "Source": "IEA, IRENA, UNSD, WB, WHO",
+                "Dwldlink": "https://trackingsdg7.esmap.org/time#tab-1-2"
+            }
+        ]
+    },
+    "8": {
+        "SDG": 8,
+        "Indicators": [
+            {
+                "Indicator": "Adjusted GDP growth (%)",
+                "Description": "The growth rate of GDP adjusted to income levels (where rich countries are expected to grow less) and expressed relative to the average growth rate of high income countries. The growth rate over the last 3-year period (t-3 to t) was calculated where  GRa=(At/At-3)^(1/3)-1 and where GRa is the growth rate for country A and At is the GDP per capita data for the year t in country A. Then our adjustment is as follows : ADJa= [GRa-(GRhic - 0,015*log(At-3/hict-3))] * 100, where GRhic is the average growth rate of high-income countries and hict-3 is the average GDP per capita of high-income countries three years ago.",
+                "Source": "World Bank ",
+                "Dwldlink": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD"
+            },
+            {
+                "Indicator": "Victims of modern slavery (per 1,000 population)",
+                "Description": "Estimation of the number of people in modern slavery. Modern slavery is defined as people in forced labor or forced marriage. It is calculated based on standardized surveys and Multiple Systems Estimation (MSE).",
+                "Source": "Walk Free Foundation (2018)",
+                "Dwldlink": "https://www.globalslaveryindex.org/"
+            },
+            {
+                "Indicator": "Adults with an account at a bank or other financial institution or with a mobile-money-service provider (% of population aged 15 or over)",
+                "Description": "The percentage of adults, 15 years and older, who report having an account (by themselves or with someone else) at a bank or another type of financial institution, or who have personally used a mobile money service within the past 12 months.",
+                "Source": "Global Findex Database",
+                "Dwldlink": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS"
+            },
+            {
+                "Indicator": "Unemployment rate (% of total labor force, ages 15+)",
+                "Description": "Modeled estimate of the share of the labor force that is without work but is available and actively seeking employment. The indicator reflects the inability of an economy to generate employment for people who want to work but are not doing so.",
+                "Source": "ILO ",
+                "Dwldlink": "https://www.ilo.org/shinyapps/bulkexplorer14/?lang=en&segment=indicator&id=UNE_2EAP_SEX_AGE_RT_A"
+            },
+            {
+                "Indicator": "Fundamental labor rights are effectively guaranteed (worst 0\u20131 best)",
+                "Description": "Measures the effective enforcement of fundamental labor rights, including freedom of association and the right to collective bargaining, the absence of discrimination with respect to employment, and freedom from forced labor and child labor.",
+                "Source": "World Justice Project",
+                "Dwldlink": "https://worldjusticeproject.org/our-work/wjp-rule-law-index"
+            },
+            {
+                "Indicator": "Fatal work-related accidents embodied in imports (per million population)",
+                "Description": "The number of fatal work-related accidents associated with imported goods. Calculated using extensions to a multiregional input-output table.",
+                "Source": "Alsamawi et al. (2017) \ndata updated to 2018",
+                "Dwldlink": "https://doi.org/10.1016/j.jclepro.2016.12.110"
+            },
+            {
+                "Indicator": "Victims of modern slavery embodied in imports (per 100,000 population)",
+                "Description": "Victims of forced labor embodied in supply chains. Calculated using a multi-regional input-output table (Gloria) extended with a slavery satellite account ",
+                "Source": "Malik et al (2022)",
+                "Dwldlink": "Data provided by Malik A. \nhttps://onlinelibrary.wiley.com/doi/abs/10.1111/jiec.13169"
+            },
+            {
+                "Indicator": "Employment-to-population ratio (%)",
+                "Description": "The ratio of the employed to the working age population. Employed people are those aged 15 or older who were in paid employment or self-employed during a specified period. The working age population refers to people aged 15 to 64.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_LFS%40DF_IALFS_EMP_WAP_Q&df[ag]=OECD.SDD.TPS&df[vs]=1.0&pd=2016%2C2023&dq=.EMP_WAP.._Z.Y._T.Y15T64..A&ly[rw]=REF_AREA&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false&vw=tb"
+            },
+            {
+                "Indicator": "Youth not in employment, education or training (NEET) (% of population aged 15 to 24)",
+                "Description": "The percentage of young people who are not in employment, education or training (NEET). Education includes part-time or full-time education but excludes those in non-formal education and in educational activities of very short duration. Employment is defined according to the ILO Guidelines and covers all those who have been in paid work for at least one hour in the reference week or were temporarily absent from such work.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=2&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_HSL%40DF_HSL_CWB&df[ag]=OECD.WISE.WDP&df[vs]=1.0&pd=2019%2C2022&dq=.2_4.PT_POP_Y15T24._T._T._T.&ly[cl]=TIME_PERIOD%2CDOMAIN&ly[rw]=REF_AREA&to[TIME_PERIOD]=false&lc=en"
+            }
+        ]
+    },
+    "9": {
+        "SDG": 9,
+        "Indicators": [
+            {
+                "Indicator": "Rural population with access to all-season roads (%)",
+                "Description": "Proportion of the rural population that lives within 2 km of an all-season road. An all-season road is one that is motorable throughout the year but may be temporarily unavailable during inclement weather.",
+                "Source": "SDSN (2023), based on Workman, R. & McPherson, K., TRL (2019)",
+                "Dwldlink": "https://sdsn.maps.arcgis.com/home/item.html?id=d386abdab7d946aa8b1a0cd11496d91f"
+            },
+            {
+                "Indicator": "Population using the internet (%)",
+                "Description": "The percentage of the population who used the Internet from any location in the last three months. Access could be via a fixed or mobile network.",
+                "Source": "ITU ",
+                "Dwldlink": "https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx"
+            },
+            {
+                "Indicator": "Mobile broadband subscriptions (per 100 population)",
+                "Description": "The number of mobile broadband subscriptions per 100 population. Mobile broadband subscriptions refer to subscriptions to mobile cellular networks with access to data communications (e.g. the Internet) at broadband speeds, irrespective of the device used to access the internet.",
+                "Source": "ITU ",
+                "Dwldlink": "https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx"
+            },
+            {
+                "Indicator": "Logistics Performance Index: Quality of trade and transport-related infrastructure (worst 1-5 best)",
+                "Description": "Survey-based average assessment of the quality of trade and transport related infrastructure, e.g. ports, roads, railroads and information technology, on a scale from 1 (worst) to 5 (best).",
+                "Source": "World Bank ",
+                "Dwldlink": "https://lpi.worldbank.org/international/global"
+            },
+            {
+                "Indicator": "The Times Higher Education Universities Ranking: Average score of top 3 universities (worst 0-100 best)",
+                "Description": "The average score of the top three universities in each country that are listed in the global top 1,000 universities in the world. For countries with at least one university on the list, only the score of the ranked university was taken into account.  When a university score was missing in the Times Higher Education World University Ranking, an indicator from the Global Innovation Index on the top 3 universities in Quacquarelli Symonds (QS) University Ranking was used as a source when available.",
+                "Source": "Times Higher Education ",
+                "Dwldlink": "https://www.timeshighereducation.com/world-university-rankings"
+            },
+            {
+                "Indicator": "Articles published in academic journals (per 1,000 population)",
+                "Description": "Number of citable documents published by a journal in the three previous years (selected year documents are excluded). Exclusively articles, reviews and conference papers are considered.",
+                "Source": "Scimago Jounal Rank",
+                "Dwldlink": "https://www.scimagojr.com/countryrank.php?year=2020"
+            },
+            {
+                "Indicator": "Expenditure on research and development (% of GDP)",
+                "Description": "Gross domestic expenditure on scientific research and experimental development (R&D) expressed as a percentage of Gross Domestic Product (GDP). We assumed zero R&D expenditure for low-income countries that do not report any data.\n",
+                "Source": "UNESCO ",
+                "Dwldlink": "http://data.uis.unesco.org/index.aspx?queryid=3684"
+            },
+            {
+                "Indicator": "Researchers (per 1,000 employed population)",
+                "Description": "The number of researchers per thousand employed people. Researchers are professionals engaged in the conception or creation of new knowledge, products, processes, methods and systems, as well as in the management of the projects concerned",
+                "Source": "OECD ",
+                "Dwldlink": "https://data.oecd.org/rd/researchers.htm"
+            },
+            {
+                "Indicator": "Triadic patent families filed (per million population)",
+                "Description": "A triadic patent family is defined as a set of patents registered in various countries (i.e. patent offices) to protect the same invention. Triadic patent families are a set of patents filed at three of these major patent offices: the European Patent Office (EPO), the Japan Patent Office (JPO) and the United States Patent and Trademark Office (USPTO). The number of triadic patent families is \"nowcast\" for timeliness.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data.oecd.org/rd/triadic-patent-families.htm#indicator-chart"
+            },
+            {
+                "Indicator": "Gap in internet access by income (percentage points)",
+                "Description": "The difference in the percentage of household Internet access between the top and bottom income quartiles.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=6&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_ICT_HH_IND%40DF_HH&df[ag]=OECD.STI.DEP&df[vs]=1.0&pd=2012%2C&dq=.A.B1_HH.._T...._T.&ly[rw]=REF_AREA&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false&tm=internet%20access%20"
+            },
+            {
+                "Indicator": "Female share of graduates from STEM fields at the tertiary level (%)",
+                "Description": "Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programs, tertiary (%)",
+                "Source": "World Bank ",
+                "Dwldlink": "https://databank.worldbank.org/source/gender-statistics/Series/SE.TER.GRAD.FE.SI.ZS"
+            }
+        ]
+    },
+    "10": {
+        "SDG": 10,
+        "Indicators": [
+            {
+                "Indicator": "Gini coefficient",
+                "Description": "The Gini coefficient measures the extent to which the distribution of income among individuals or households within an economy deviates from a perfectly equal distribution.",
+                "Source": "World Bank ",
+                "Dwldlink": "https://data.worldbank.org/indicator/SI.POV.GINI"
+            },
+            {
+                "Indicator": "Palma ratio",
+                "Description": "The share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income.",
+                "Source": "OECD & UNDP",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?tm=palma&pg=0&snb=43&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_WISE_IDD%40DF_IDD&df[ag]=OECD.WISE.INE&df[vs]=1.0&pd=2010%2C&dq=.A.INC_DISP_GINI..._T.METH2012.D_CUR.&ly[rw]=REF_AREA%2CUNIT_MEASURE&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false"
+            },
+            {
+                "Indicator": "Elderly poverty rate (% of population aged 66 or over)",
+                "Description": "The percentage of people of 66 years of age or more whose income falls below half the median household income of the total population.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?tm=poverty%20rate&pg=0&snb=5&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_WISE_IDD%40DF_IDD&df[ag]=OECD.WISE.INE&df[vs]=1.0&pd=2017%2C2022&dq=.A.PR_INC_DISP..PT_POP.Y_GT65.METH2012.D_CUR.&ly[rw]=REF_AREA&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false"
+            }
+        ]
+    },
+    "11": {
+        "SDG": 11,
+        "Indicators": [
+            {
+                "Indicator": "Proportion of urban population living in slums (%)",
+                "Description": "Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improved water, access to improved sanitation, sufficient living area, housing durability, and security of tenure.",
+                "Source": "UN Habitat",
+                "Dwldlink": "https://data.unhabitat.org/pages/housing-slums-and-informal-settlements"
+            },
+            {
+                "Indicator": "Annual mean concentration of particulate matter of less than 2.5 microns in diameter (PM2.5) (\u03bcg/m\u00b3)",
+                "Description": "Air pollution measured as the population-weighted mean annual concentration of PM2.5 for the urban population in a country. PM2.5 is suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and can cause severe health damage.",
+                "Source": "Washington University in St Louis",
+                "Dwldlink": "https://sites.wustl.edu/acag/datasets/surface-pm2-5/"
+            },
+            {
+                "Indicator": "Access to improved water source, piped (% of urban population)",
+                "Description": "The percentage of the urban population with access to improved drinking water piped on premises. An \"improved\" drinking-water source is one that, by the nature of its construction and when properly used, adequately protects the source from outside contamination, particularly fecal matter.",
+                "Source": "WHO and UNICEF ",
+                "Dwldlink": "https://washdata.org/data/household#!/table?geo0=region&geo1=sdg"
+            },
+            {
+                "Indicator": "Population with rent overburden (%)",
+                "Description": "Percentage of the population living in households where the total housing costs represent more than 40 % of disposable income.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?tm=housing&pg=0&hc[Domain]=Housing&snb=50&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_HSL%40DF_HSL_CWB&df[ag]=OECD.WISE.WDP&df[vs]=1.0&pd=2015%2C2020&dq=.3_3.PT_HH._T._T._T.HSL_3&ly[cl]=TIME_PERIOD&ly[rw]=REF_AREA&to[TIME_PERIOD]=false"
+            },
+            {
+                "Indicator": "Urban population with access to points of interest within a 15min walk (%)",
+                "Description": "The percentage of the population in urban areas living within 15-minute walking distance from a point of interest (i.e. hospitals, schools, supermarkets, restaurants, etc.) Distance is established through pedestrian street network data and the percentage of population in the radius is estimated using gridded population density.",
+                "Source": "SDSN (2023), based on Nicoletti, L., Sirenko, M., & Verma, T. (2023)",
+                "Dwldlink": "https://sdg-transformation-center-sdsn.hub.arcgis.com/datasets/sdsn::pedestrian-accessibility-indicators-by-country-oecd-members-only/about"
+            },
+            {
+                "Indicator": "Population with convenient access to public transport in cities (%)",
+                "Description": null,
+                "Source": "UN-Habitat",
+                "Dwldlink": "https://unstats.un.org/sdgs/dataportal/database"
+            }
+        ]
+    },
+    "12": {
+        "SDG": 12,
+        "Indicators": [
+            {
+                "Indicator": "Municipal solid waste (kg/capita/day)",
+                "Description": "The amount of waste collected by or on behalf of municipal authorities and disposed of through the waste management system. Waste from agriculture and from industries are not included.",
+                "Source": "World Bank ",
+                "Dwldlink": "https://datacatalog.worldbank.org/search/dataset/0039597/What-a-Waste-Global-Database"
+            },
+            {
+                "Indicator": "Electronic waste (kg/capita)",
+                "Description": "Waste from electrical and electronic equipment, estimated based on figures for domestic production, imports and exports of electronic products, as well as product lifespan data.",
+                "Source": "UNU-IAS ",
+                "Dwldlink": "https://www.itu.int/en/ITU-D/Environment/Documents/Toolbox/GEM_2020_def.pdf"
+            },
+            {
+                "Indicator": "Production-based air pollution (DALYs per 1,000 population)",
+                "Description": null,
+                "Source": "UNEP",
+                "Dwldlink": "http://scp-hat.lifecycleinitiative.org/module-2-scp-hotspots/"
+            },
+            {
+                "Indicator": "Air pollution associated with imports (DALYs per 1,000 population)",
+                "Description": null,
+                "Source": "UNEP",
+                "Dwldlink": "http://scp-hat.lifecycleinitiative.org/module-2-scp-hotspots/"
+            },
+            {
+                "Indicator": "Production-based nitrogen emissions (kg/capita)",
+                "Description": "Reactive nitrogen emitted during the production of commodities, which are then either exported or consumed domestically. Reactive nitrogen corresponds to emissions of ammonia, nitrogen oxides and nitrous oxide to the atmosphere, and of reactive nitrogen potentially exportable to water bodies, all of which can be harmful to human health and the environment.",
+                "Source": "UNEP",
+                "Dwldlink": "http://scp-hat.lifecycleinitiative.org/module-2-scp-hotspots/"
+            },
+            {
+                "Indicator": "Nitrogen emissions associated with imports (kg/capita)",
+                "Description": "Emissions of reactive nitrogen embodied in imported goods and services. Reactive nitrogen corresponds here to emissions of ammonia, nitrogen oxides and nitrous oxide to the atmosphere, and of reactive nitrogen potentially exportable to water bodies, all of which can be harmful to human health and the environment.",
+                "Source": "UNEP",
+                "Dwldlink": "http://scp-hat.lifecycleinitiative.org/module-2-scp-hotspots/"
+            },
+            {
+                "Indicator": "Exports of plastic waste (kg/capita)",
+                "Description": "The average annual amount of plastic waste exported over the last 5 years expressed per capita.",
+                "Source": "UN Comtrade ",
+                "Dwldlink": "https://comtrade.un.org/data/"
+            },
+            {
+                "Indicator": "Non-recycled municipal solid waste (kg/capita/day)",
+                "Description": "The amount of municipal solid waste (MSW), including household waste, that is neither recycled nor composted.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?tm=recycling&pg=0&snb=9&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_MUNW%40DF_MUNW&df[ag]=OECD.ENV.EPI&df[vs]=1.0&pd=2015%2C&dq=.A.MUNICIPAL.T%2BKG_PS&ly[rw]=REF_AREA&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false"
+            }
+        ]
+    },
+    "13": {
+        "SDG": 13,
+        "Indicators": [
+            {
+                "Indicator": "CO\u2082 emissions from fossil fuel combustion and cement production (tCO2/capita)",
+                "Description": "Emissions from the combustion and oxidation of fossil fuels and from cement production. The indicator excludes emissions from fuels used for international aviation and maritime transport.",
+                "Source": "Global Carbon Project",
+                "Dwldlink": "https://www.icos-cp.eu/science-and-impact/global-carbon-budget"
+            },
+            {
+                "Indicator": "GHG emissions embodied in imports (tCO\u2082/capita)",
+                "Description": "CO\u2082 emissions embodied in imported goods and services.",
+                "Source": "Lenzen et al. (2022)",
+                "Dwldlink": "Data provided by Malik, A."
+            },
+            {
+                "Indicator": "CO\u2082 emissions embodied in fossil fuel exports (kg/capita)",
+                "Description": "CO\u2082 emissions embodied in the exports of coal, gas, and oil. Calculated using a 5-year average of fossil fuel exports and converting exports into their equivalent CO\u2082 emissions. Exports for each fossil fuel are capped at the country's level of production.",
+                "Source": "UN Comtrade ",
+                "Dwldlink": "https://comtrade.un.org/data/"
+            },
+            {
+                "Indicator": "Carbon Pricing Score at EUR60/tCO\u2082 (%, worst 0-100 best)",
+                "Description": "The Carbon Pricing Score (CPS) measures the extent to which countries have attained the goal of pricing all energy-related carbon emissions at certain benchmark values for carbon costs, across all sectors, including emissions from the combustion of biomass. The more progress that a country has made towards a specified benchmark value, the higher the CPS. For example, a CPS of 100% against a EUR 60 per tonne of CO2 benchmark means that the country (or the group of countries) prices all carbon emissions in its (their) territory from energy use at EUR 60 or more.",
+                "Source": "OECD ",
+                "Dwldlink": "https://data-explorer.oecd.org/vis?lc=en&df[ds]=DisseminateArchiveDMZ&df[id]=DF_ECR&df[ag]=OECD&pd=%2C&dq=....&to[TIME_PERIOD]=false&lo=5&lom=LASTNPERIODS\nhttps://stats.oecd.org/Index.aspx?DataSetCode=ECR&_ga=2.210449308.885305165.1646569249-1295670724.1646080129#\n"
+            }
+        ]
+    },
+    "14": {
+        "SDG": 14,
+        "Indicators": [
+            {
+                "Indicator": "Mean area that is protected in marine sites important to biodiversity (%) ",
+                "Description": "The mean percentage area of marine Key Biodiversity Areas (sites that are important for the global persistence of marine biodiversity) that are protected.",
+                "Source": "Birdlife International et al. ",
+                "Dwldlink": "https://unstats.un.org/sdgs/indicators/database/?indicator=14.5.1"
+            },
+            {
+                "Indicator": "Ocean Health Index: Clean Waters score (worst 0-100 best)",
+                "Description": "The clean waters subgoal of the Ocean Health Index measures to what degree marine waters under national jurisdictions have been contaminated by chemicals, excessive nutrients (eutrophication), human pathogens, and trash.",
+                "Source": "Ocean Health Index ",
+                "Dwldlink": "https://oceanhealthindex.org/global-scores/data-download/"
+            },
+            {
+                "Indicator": "Fish caught from overexploited or collapsed stocks (% of total catch)",
+                "Description": "The percentage of a country\u2019s total catch, within its exclusive economic zone (EEZ), that is comprised of species that are overexploited or collapsed, weighted by the quality of fish catch data.",
+                "Source": "Sea around Us ",
+                "Dwldlink": "http://epi.yale.edu/ "
+            },
+            {
+                "Indicator": "Fish caught by trawling or dredging (%)",
+                "Description": "The percentage of fish caught by bottom trawling, a method of fishing in which industrial fishing vessels drag large nets (trawls) along the seabed. This indicator is the sum of the series for bottom trawling, shrimp trawling, and dredging.",
+                "Source": "Sea Around Us ",
+                "Dwldlink": "http://www.seaaroundus.org/data/#/search"
+            },
+            {
+                "Indicator": "Fish caught that are then discarded (%)",
+                "Description": "The percentage of fish that are caught only to be later discarded.",
+                "Source": "Sea around Us ",
+                "Dwldlink": "http://www.seaaroundus.org/data/#/search"
+            },
+            {
+                "Indicator": "Marine biodiversity threats embodied in imports (per million population)",
+                "Description": "Threats to marine species embodied in imports of goods and services.",
+                "Source": "Lenzen et al. (2012) \ndata updated to 2018",
+                "Dwldlink": "https://www.nature.com/articles/nature11145"
+            }
+        ]
+    },
+    "15": {
+        "SDG": 15,
+        "Indicators": [
+            {
+                "Indicator": "Mean area that is protected in terrestrial sites important to biodiversity (%)",
+                "Description": "The mean percentage area of terrestrial Key Biodiversity Areas (sites that are important for the global persistence of biodiversity) that are protected.",
+                "Source": "Birdlife International et al. ",
+                "Dwldlink": "https://unstats.un.org/sdgs/indicators/database/?indicator=15.1.2 "
+            },
+            {
+                "Indicator": "Mean area that is protected in freshwater sites important to biodiversity (%)",
+                "Description": "The mean percentage area of freshwater Key Biodiversity Areas (sites that are important for the global persistence of biodiversity) that are protected.",
+                "Source": "Birdlife International et al. ",
+                "Dwldlink": "https://unstats.un.org/sdgs/indicators/database/?indicator=15.1.2 "
+            },
+            {
+                "Indicator": "Red List Index of species survival (worst 0-1 best) ",
+                "Description": "The change in aggregate extinction risk across groups of species. The index is based on genuine changes in the number of species in each category of extinction risk on The IUCN Red List of Threatened Species.",
+                "Source": "IUCN and Birdlife International ",
+                "Dwldlink": "http://unstats.un.org/sdgs/indicators/database/?indicator=15.5.1"
+            },
+            {
+                "Indicator": "Permanent deforestation (% of forest area, 3-year average)",
+                "Description": "The mean annual percentage of permanent deforestation over the last 3-year period. Permanent deforestation refers to tree cover removal for urbanization, commodity production and certain types of small-scale agriculture whereby the previous tree cover does not return. It does not include temporary forest loss due to cuttings within the forestry sector or wildfires. Since data on tree cover gains are not available, the annual net loss cannot be calculated, thus the indicator is an estimate for gross permanent deforestation.",
+                "Source": "Curtis et al. (2018) \ndata updated to 2021",
+                "Dwldlink": "http://science.sciencemag.org/content/361/6407/1108"
+            },
+            {
+                "Indicator": "Imported deforestation (m\u00b2/capita)",
+                "Description": null,
+                "Source": "GSCI",
+                "Dwldlink": "https://gcsi.unsdsn.org/map/indicators/spillover-deforestation-3-year-average/proportional/ratings"
+            }
+        ]
+    },
+    "16": {
+        "SDG": 16,
+        "Indicators": [
+            {
+                "Indicator": "Homicides (per 100,000 population)",
+                "Description": "The number of intentional homicides per 100,000 people. Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. Intentional homicide does not include all intentional killing, such as killing in armed conflict.",
+                "Source": "UNODC ",
+                "Dwldlink": "https://dataunodc.un.org/dp-intentional-homicide-victims"
+            },
+            {
+                "Indicator": "Crime is effectively controlled",
+                "Description": null,
+                "Source": "World Justice Project",
+                "Dwldlink": "https://worldjusticeproject.org/rule-of-law-index/"
+            },
+            {
+                "Indicator": "Unsentenced detainees (% of prison population)",
+                "Description": "Unsentenced prisoners as a percentage of overall prison population. Persons held unsentenced or pre-trial refers to persons held in prisons, penal institutions or correctional institutions who are untried, pre-trial or awaiting a first instance decision on their case from a competent authority regarding their conviction or acquittal.",
+                "Source": "UNODC ",
+                "Dwldlink": "https://dataunodc.un.org/dp-prisons-persons-held"
+            },
+            {
+                "Indicator": "Birth registrations with civil authority (% of children under age 5)",
+                "Description": "The percentage of children under the age of five whose births are reported as being registered with the relevant national civil authorities.",
+                "Source": "UNICEF ",
+                "Dwldlink": "http://data.unicef.org/child-protection/birth-registration.html"
+            },
+            {
+                "Indicator": "Corruption Perceptions Index (worst 0-100 best)",
+                "Description": "The perceived levels of public sector corruption, on a scale from 0 (highest level of perceived corruption) to 100 (lowest level of perceived corruption). The CPI aggregates data from a number of different sources that provide perceptions of business people and country experts.",
+                "Source": "Transparency International ",
+                "Dwldlink": "https://www.transparency.org/"
+            },
+            {
+                "Indicator": "Children involved in child labor (% of population aged 5 to 14)",
+                "Description": "The percentage of children, between the age of 5 and 14 years old, involved in child labor at the time of the survey. A child is considered to be involved in child labor under the following conditions: (a) children 5-11 years old who, during the reference week, did at least one hour of economic activity or at least 28 hours of household chores, or (b) children 12-14 years old who, during the reference week, did at least 14 hours of economic activity or at least 28 hours of household chores. We assumed 0% child labor for high-income countries for which no data was reported.",
+                "Source": "UNICEF ",
+                "Dwldlink": "https://data.unicef.org/topic/child-protection/child-labour/"
+            },
+            {
+                "Indicator": "Exports of major conventional weapons (TIV constant million USD per 100,000 population)",
+                "Description": "Volume of major conventional weapons exported, expressed in constant 1990 US$ millions (TIV) per 100,000 population. The trend-indicator value is based on the known unit production cost of a core set of weapons and does not reflect the financial value of the exports. Small arms, light weapons, ammunition and other support material are not included. Values were calculated using a 5-year average on the latest ten years of data. *The inclusion of an indicator on the exports of major conventional weapons should not be interpreted as a value judgment by the authors on the policies implemented in the context of the war in Ukraine.\n",
+                "Source": "Stockholm Peace Research Institute ",
+                "Dwldlink": "https://sipri.org/databases/armstransfers"
+            },
+            {
+                "Indicator": "Press Freedom Index (worst 0-100 best)",
+                "Description": "Degree of freedom available to journalists in 180 countries and regions, determined by pooling the responses of experts to a questionnaire devised by RSF.",
+                "Source": "Reporters sans fronti\u00e8res",
+                "Dwldlink": "https://rsf.org/en/ranking"
+            },
+            {
+                "Indicator": "Access to and affordability of justice (worst 0\u20131 best)",
+                "Description": "Measures the accessibility and affordability of civil courts, including whether people are aware of available remedies; can access and afford legal advice and representation; and can access the court system without incurring unreasonable fees, encountering unreasonable procedural hurdles, or experiencing physical or linguistic barriers.",
+                "Source": "World Justice Project",
+                "Dwldlink": "https://worldjusticeproject.org/rule-of-law-index/"
+            },
+            {
+                "Indicator": "Timeliness of administrative proceedings (worst 0 - 1 best)",
+                "Description": "Measures whether administrative proceedings at the national and local levels are conducted without unreasonable delay.",
+                "Source": "World Justice Project",
+                "Dwldlink": "https://worldjusticeproject.org/rule-of-law-index/"
+            },
+            {
+                "Indicator": "Expropriations are lawful and adequately compensated (worst 0 - 1 best)",
+                "Description": "Measures whether the government respects the property rights of people and corporations, refrains from the illegal seizure of private property, and provides adequate compensation when property is legally expropriated.",
+                "Source": "World Justice Project",
+                "Dwldlink": "https://worldjusticeproject.org/rule-of-law-index/"
+            },
+            {
+                "Indicator": "Persons held in prison (per 100,000 population)",
+                "Description": "The prison population is composed of persons held in prisons, penal institutions, or correctional institutions.",
+                "Source": "UNODC ",
+                "Dwldlink": "https://dataunodc.un.org/data/Prison/Persons%20held%20in%20prison"
+            }
+        ]
+    },
+    "17": {
+        "SDG": 17,
+        "Indicators": [
+            {
+                "Indicator": "Government spending on health and education (% of GDP)",
+                "Description": "The sum of public expenditure on health from domestic sources and general government expenditure on education (current, capital, and transfers) expressed as a percentage of GDP. This indicator is based on the World Bank health and education spending datasets, sourced from WHO & UNESCO respectively. Values are carried forward for both health and education, but a value in a given year is only reported if at least one data point is a real observation (not carried forward).",
+                "Source": "UNESCO ",
+                "Dwldlink": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/domestic-general-government-health-expenditure-(gghe-d)-as-percentage-of-gross-domestic-product-(gdp)-(-)\nhttps://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+            },
+            {
+                "Indicator": "For high-income and all OECD DAC countries: International concessional public finance, including official development assistance (% of GNI)",
+                "Description": "The amount of official development assistance (ODA) as a share of gross national income (GNI). It includes grants, \"soft\" loans (where the grant element is at least 25% of the total) and the provision of technical assistance and excludes grants and loans for military purposes. There is a break in the series because from 2019, the ODA grant-equivalent methodology is used whereby only the \u201cgrant portion\u201d of the loan, i.e. the amount \u201cgiven\u201d by lending below market rates, counts as ODA. ",
+                "Source": "OECD ",
+                "Dwldlink": "https://data.oecd.org/oda/net-oda.htm"
+            },
+            {
+                "Indicator": "Other countries: Government revenue excluding grants (% of GDP)",
+                "Description": "Government revenue measured as cash receipts from taxes, social contributions, and other revenues such as fines, fees, rent, and income from property or sales. Grants are also considered as revenue but are excluded here.",
+                "Source": "IMF ",
+                "Dwldlink": "https://data.worldbank.org/indicator/GC.REV.XGRT.GD.ZS?view=chart"
+            },
+            {
+                "Indicator": "Corporate Tax Haven Score (best 0-100 worst)",
+                "Description": "The Corporate Tax Haven Score measures a jurisdiction\u2019s potential to poach the tax base of others, as enshrined in its laws, regulations and documented administrative practices. For countries with multiple jurisdictions, the average value across the jurisdictions was assigned to the country.",
+                "Source": "Tax Justice Network",
+                "Dwldlink": "https://corporatetaxhavenindex.org/"
+            },
+            {
+                "Indicator": "Financial Secrecy Score (best 0-100 worst)",
+                "Description": "The Index measures the contribution of each jurisdiction to financial secrecy, on a scale from 0 (best) to 100 (worst). It is calculated using qualitative data to prepare a secrecy score for each jurisdiction and quantitative data to create a global scale weighting for each jurisdiction according to its share of offshore financial services activity in the global total. For countries with multiple jurisdictions, the average score of the jurisdictions was used.",
+                "Source": "Tax Justice Network",
+                "Dwldlink": "https://fsi.taxjustice.net/en/introduction/fsi-results"
+            },
+            {
+                "Indicator": "Shifted profits of multinationals (US$ billion)",
+                "Description": "Estimation of how much profit is shifted into tax havens and how much non-haven countries lose in profits from such shifting. Based on macroeconomic data known as foreign affiliates statistics. Negative values indicate profit shifting.",
+                "Source": "Zucman et al. (2019)",
+                "Dwldlink": "https://missingprofits.world/"
+            },
+            {
+                "Indicator": "Statistical Performance Index (worst 0-100 best)",
+                "Description": "The Statistical Performance Index is a weighted average of the statistical performance indicators that evaluate the performance of national statistical systems. It aggregates five pillars of statistical performance: data use, data services, data products, data sources, and data infrastructure. ",
+                "Source": "World Bank ",
+                "Dwldlink": "https://www.worldbank.org/en/programs/statistical-performance-indicators"
+            },
+            {
+                "Indicator": "Index of countries' support to UN-based multilateralism (worst 0-100 best)",
+                "Description": null,
+                "Source": "SDSN",
+                "Dwldlink": "https://sdgtransformationcenter.org/static/docs/methodologies/11-03-2023-Multilateralism_Index.pdf"
+            }
+        ]
+    }
+}
