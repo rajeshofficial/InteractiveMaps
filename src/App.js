@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { MapPage } from './Pages/mapPage';
 import { RankingPage } from './Pages/rankingPage';
-import ComparePage from './components/compare'; // Import the ComparePage
+import ComparePage from './Pages/compare' // Import the ComparePage
 import SDGPage from './Pages/sdgPage'; // Import the SDGPage
 import Navbar from './components/nav'; // Import the Navbar
 import About from './Pages/about'; // Import the Navbar

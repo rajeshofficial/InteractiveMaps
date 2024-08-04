@@ -17,7 +17,7 @@ import sdg14 from '../assets/14.png';
 import sdg15 from '../assets/15.png';
 import sdg16 from '../assets/16.png';
 import sdg17 from '../assets/17.png';
-import data from '../dlink.json';
+import data from '../SeconData/dlink.json';
 import SearchBar from '../components/SearchBar';
 
 const sdgImages = [sdg1, sdg2, sdg3, sdg4, sdg5, sdg6, sdg7, sdg8, sdg9, sdg10, sdg11, sdg12, sdg13, sdg14, sdg15, sdg16, sdg17];
