@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import html2canvas from 'html2canvas';
+import { useLocation, useNavigate } from 'react-router-dom';
 
-export const ComparePage = () => {
+const ComparePage = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -13,6 +14,9 @@ export const ComparePage = () => {
     const [compare, setCompare] = useState(false);
     const [showSuggestions1, setShowSuggestions1] = useState(false);
     const [showSuggestions2, setShowSuggestions2] = useState(false);
+
+    const location = useLocation();
+    const navigate = useNavigate();
 
     useEffect(() => {
         const fetchData = async () => {
@@ -27,6 +31,16 @@ export const ComparePage = () => {
 
                 const result = await response.json();
                 setData(result.features);
+
+                // If URL has parameters, set search terms and compare countries
+                const params = new URLSearchParams(location.search);
+                const country1 = params.get('country1');
+                const country2 = params.get('country2');
+                if (country1 && country2) {
+                    setSearchTerm1(country1);
+                    setSearchTerm2(country2);
+                    handleCompare(country1, country2, result.features);
+                }
             } catch (error) {
                 setError(error);
             } finally {
@@ -35,7 +49,7 @@ export const ComparePage = () => {
         };
 
         fetchData();
-    }, []);
+    }, [location.search]);
 
     const handleSearch1 = (e) => {
         setSearchTerm1(e.target.value);
@@ -51,24 +65,25 @@ export const ComparePage = () => {
         setCompare(false);
     };
 
-    const handleCompare = () => {
-        const country1 = data.find(feature => feature.attributes.Name.toLowerCase() === searchTerm1.toLowerCase());
-        const country2 = data.find(feature => feature.attributes.Name.toLowerCase() === searchTerm2.toLowerCase());
+    const handleCompare = (term1 = searchTerm1, term2 = searchTerm2, features = data) => {
+        const country1 = features.find(feature => feature.attributes.Name.toLowerCase() === term1.toLowerCase());
+        const country2 = features.find(feature => feature.attributes.Name.toLowerCase() === term2.toLowerCase());
         setSelectedCountry1(country1 ? country1.attributes : null);
         setSelectedCountry2(country2 ? country2.attributes : null);
 
         if (!country1) {
-            alert(`Country "${searchTerm1}" not found.`);
+            alert(`Country "${term1}" not found.`);
         }
 
         if (!country2) {
-            alert(`Country "${searchTerm2}" not found.`);
+            alert(`Country "${term2}" not found.`);
         }
 
         if (country1 && country2) {
             setCompare(true);
             setShowSuggestions1(false);
             setShowSuggestions2(false);
+            navigate(`?country1=${term1}&country2=${term2}`);
         }
     };
 
@@ -179,7 +194,7 @@ export const ComparePage = () => {
                         )}
                     </div>
                     <div className="col-md-2 mb-2 text-center">
-                        <button className="btn btn-primary btn-block" onClick={handleCompare} style={{ width: '100%' }}>Compare</button>
+                        <button className="btn btn-primary btn-block" onClick={() => handleCompare()} style={{ width: '100%' }}>Compare</button>
                     </div>
                 </div>
                 {compare && (
