@@ -38,7 +38,7 @@ const SDGPage = () => {
               src={image}
               alt={`SDG ${index + 1}`}
               style={{ cursor: 'pointer', width: '100px', height: '100px' }}
-              onClick={() => handleSDGClick(index + 1)}
+              onClick={() => handleSDGClick(index + 1)} // after click 
             />
           </div>
         ))}
@@ -46,8 +46,9 @@ const SDGPage = () => {
       {selectedSDG && (
         <div className="sdg-details mt-5">
           <h2 className="text-center">SDG {selectedSDG.SDG} Details</h2>
+          {/* // table content  */}
           <table className="table table-bordered mt-3">
-            <thead>
+            <thead> 
               <tr>
                 <th>Indicator</th>
                 <th>Description</th>

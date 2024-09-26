@@ -51,6 +51,9 @@ const ComparePage = () => {
         fetchData();
     }, [location.search]);
 
+
+    // first search bar to search country
+
     const handleSearch1 = (e) => {
         setSearchTerm1(e.target.value);
         setSelectedCountry1(null);
@@ -58,13 +61,16 @@ const ComparePage = () => {
         setCompare(false);
     };
 
+
+    // second search bar to search country
+
     const handleSearch2 = (e) => {
         setSearchTerm2(e.target.value);
         setSelectedCountry2(null);
         setShowSuggestions2(true);
         setCompare(false);
     };
-
+// for compoaring two countries 
     const handleCompare = (term1 = searchTerm1, term2 = searchTerm2, features = data) => {
         const country1 = features.find(feature => feature.attributes.Name.toLowerCase() === term1.toLowerCase());
         const country2 = features.find(feature => feature.attributes.Name.toLowerCase() === term2.toLowerCase());
@@ -87,6 +93,8 @@ const ComparePage = () => {
         }
     };
 
+    // clicking on countries 
+
     const handleCountryClick = (countryName, setSearchTerm, setSelectedCountry, setShowSuggestions) => {
         const country = data.find(feature => feature.attributes.Name === countryName);
         setSelectedCountry(country ? country.attributes : null);
@@ -95,6 +103,8 @@ const ComparePage = () => {
         setCompare(false);
     };
 
+
+    // filtering data
     const filteredData1 = data
         .filter((feature) =>
             feature.attributes.Name.toLowerCase().includes(searchTerm1.toLowerCase())

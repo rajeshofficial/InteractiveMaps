@@ -21,7 +21,7 @@ import sdg16 from '../assets/16.png';
 import sdg17 from '../assets/17.png';
 import Map from '../assets/map.js';
 
-// Utility function to escape special characters for CSS selectors
+// to fix name error 
 const escapeCssSelector = (str) => {
     return str.replace(/([ #;&,.+*~\':"!^$[\]()=>|/@])/g, '\\$1');
 };
@@ -47,7 +47,7 @@ export const MapPage = () => {
         if (userConfirmed) {
             window.location.href = "mailto:?subject=Map Screenshot&body=Please find the attached screenshot.";
         } else {
-            // User chose not to send the email
+            // email function 
             return;
         }
     };
@@ -70,7 +70,7 @@ export const MapPage = () => {
 
         fetchData();
     }, []);
-
+// setting opacity
     useEffect(() => {
         const setCountryStyle = (id, score) => {
             const element = document.getElementById(escapeCssSelector(id));
@@ -78,7 +78,7 @@ export const MapPage = () => {
 
             if (score === undefined || score === null) {
                 element.style.fill = 'grey';
-                element.style.opacity = 1; // Full opacity for grey (no information)
+                element.style.opacity = 1; // Full opacity for grey .
             } else {
                 let opacity;
                 if (score >= 80) {
@@ -100,7 +100,7 @@ export const MapPage = () => {
         Object.keys(countryData).forEach(id => {
             setCountryStyle(id, countryData[id]?.Overall_Score);
         });
-
+// mouse fuctions 
         const handleMouseOver = (e) => {
             const pathElement = e.target;
             const id = pathElement.id;
@@ -123,7 +123,7 @@ export const MapPage = () => {
                 y: y + 15 
             });
         };
-
+// mouse fuctions 
         const handleMouseLeave = (e) => {
             const pathElement = e.target;
             const classes = pathElement.className.baseVal.replace(/ /g, '.');
@@ -139,7 +139,7 @@ export const MapPage = () => {
             const id = e.target.id;
             setSelectedCountry(countryData[id]);
         };
-
+// mouse fuctions 
         const paths = document.querySelectorAll('.allPaths');
         paths.forEach(e => {
             e.setAttribute('class', `allPaths ${e.id}`);
@@ -227,6 +227,7 @@ export const MapPage = () => {
                             {renderSDGScores()}
                         </div>
                     )}
+                    {/* incline css  */}
                 </div>
                 <div className="map">
                     <div 
@@ -291,7 +292,7 @@ export const MapPage = () => {
                         </button>
 
                         <p></p>
-
+{/* sdg images  */}
                         <div className="sdg-buttons">
                             <img src={sdg1} alt="SDG 1" />
                             <img src={sdg2} alt="SDG 2" />
@@ -314,7 +315,7 @@ export const MapPage = () => {
                     </div>
                 </div>
             </div>
-            {/* Include the GoogleCSE component */}
+          
         </div>
     );
 };

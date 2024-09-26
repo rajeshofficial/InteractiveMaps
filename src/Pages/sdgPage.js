@@ -25,7 +25,7 @@ const sdgImages = [sdg1, sdg2, sdg3, sdg4, sdg5, sdg6, sdg7, sdg8, sdg9, sdg10, 
 const SDGPage = () => {
     const [selectedSDG, setSelectedSDG] = useState(null);
 
-    const handleSDGClick = (sdgNumber) => {
+    const SDGClick = (sdgNumber) => {
         const sdgDetails = data[sdgNumber];
         setSelectedSDG(sdgDetails);
     };
@@ -47,7 +47,7 @@ const SDGPage = () => {
                                 <Image
                                     src={image}
                                     alt={`SDG ${index + 1}`}
-                                    onClick={() => handleSDGClick(index + 1)}
+                                    onClick={() => SDGClick(index + 1)}
                                 />
                             </ImageWrapper>
                         ))}

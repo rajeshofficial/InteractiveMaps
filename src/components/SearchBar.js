@@ -22,7 +22,7 @@ const SearchBar = () => {
             setResults(response.data.items);
             setShowModal(true);
         } catch (error) {
-            console.error('Error fetching search results:', error);
+            console.error('error in recieving data :', error);
         }
     };
 
@@ -38,10 +38,10 @@ const SearchBar = () => {
                     type="text"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Search..."
+                    placeholder="Search here "
                     style={styles.searchInput}
                 />
-                <button type="submit" style={styles.searchButton}>Search</button>
+                <button type="submitbtn" style={styles.searchButton}>Search</button>
             </form>
             {showModal && (
                 <div style={styles.modalOverlay}>

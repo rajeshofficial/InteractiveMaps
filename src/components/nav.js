@@ -5,9 +5,6 @@ import logo from '../assets/logo.png';
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
 
-  const handleNavLinkClick = () => {
-    setNavOpen(false);
-  };
 
   return (
     <div className="navbar">
@@ -20,11 +17,21 @@ const Navbar = () => {
         <div className="bar"></div>
       </div>
       <ul className={`nav-links ${navOpen ? 'open' : ''}`} id="navLinks">
-        <li><NavLink to="/" onClick={handleNavLinkClick}>Interactive Map</NavLink></li>
-        <li><NavLink to="/ranking" onClick={handleNavLinkClick}>Ranking</NavLink></li>
-        <li><NavLink to="/compare" onClick={handleNavLinkClick}>Compare</NavLink></li>
-        <li><NavLink to="/sdgs" onClick={handleNavLinkClick}>SDGs</NavLink></li>
-        <li><NavLink to="/about" onClick={handleNavLinkClick}>About</NavLink></li>
+        <li><NavLink to="/" onClick={() => {
+          setNavOpen(false);
+        }}>Interactive Map</NavLink></li>
+        <li><NavLink to="/ranking" onClick={() => {
+          setNavOpen(false);
+        }}>Ranking</NavLink></li>
+        <li><NavLink to="/compare" onClick={() => {
+          setNavOpen(false);
+        }}>Compare</NavLink></li>
+        <li><NavLink to="/sdgs" onClick={() => {
+          setNavOpen(false);
+        }}>SDGs</NavLink></li>
+        <li><NavLink to="/about" onClick={() => {
+          setNavOpen(false);
+        }}>About</NavLink></li>
       </ul>
     </div>
   );
