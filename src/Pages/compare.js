@@ -146,6 +146,7 @@ const ComparePage = () => {
                     <h1>Compare Country SDG Report</h1>
                     <p className="lead" style={{ fontSize: '1.2rem', marginBottom: 0 }}>Compare Sustainable Development Goals between two countries</p>
                 </div>
+                
                 <div className="row mb-4 justify-content-center">
                     <div className="col-md-5 mb-2" style={{ position: 'relative' }}>
                         <input
